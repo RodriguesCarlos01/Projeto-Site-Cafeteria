@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+	box-sizing: border-box;
+}
+:root {
+  --fonte-fraunces:  "Fraunces", serif;
+  --font-oswald: "Oswald", sans-serif;
+  --font-lato: "Lato", sans-serif;
+
+  --links-subtitulos: #c4a47c;
+  --cor-de-fundo: #604829;
+  --sbtitulo-texto-lista: #fff;
+  --textos: #666;
+  --bordas: #acacac;
+  --rodape: #000000;
+}
+
+.container-topo{
+  width: 100vw;
+  background-color: var(--cor-de-fundo);
+  position: fixed;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+
+}
+
+.container-topo img{
+  width: 100px;
+}
+
+.container-topo p{
+  width: 370px;
+  display: flex;
+  justify-content: center;
+}
+
+.container-topo a{
+  color: var(--links-subtitulos);
+  font-family: var(--font-oswald);
+  font-size: 25px;
+  text-decoration: none;
+  margin: auto 20px;
+  
+}
+
+.container-banner{
+  background-image: url(/assets/parallax-imagem1.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  /* background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 100px; */
+}
+
+.banner-titulo{
+  font-size: 60px;
+  padding: 20px 0;
+  color: white;
+  text-align: center;
+  
+}
+
+
